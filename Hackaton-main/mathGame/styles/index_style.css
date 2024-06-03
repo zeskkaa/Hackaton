@@ -1,0 +1,142 @@
+.info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 6% 5%;
+    background: linear-gradient(#7DA0FC, #7695E7 25% 100%);
+}
+
+.name_of_game_image {
+    width: 30%;
+}
+
+.start_button {
+    margin-top: 3%;
+    padding: 1% 4.5%;
+
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 1.7em;
+    text-decoration: none;
+
+    border-radius: 40px;
+
+    color: #7DA0FC;
+    background-color: white;
+    box-shadow: 0 2px 8px 1px #00000041;
+}
+
+.start_button:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.about_container {
+    display: flex;
+
+    padding: 3% 5%;
+}
+
+.text_about_us,
+.opportunities_container {
+    width: 50%;
+}
+
+.text_about_us {
+    padding: 0 4%;
+}
+
+.text_about_us > p,
+.text_about_us > h1 {
+    font-family: "Inter", sans-serif;
+}
+
+.text_about_us > p > b {
+    font-family: "Lexend", sans-serif;
+}
+
+.describe_us_text {
+    font-size: 1.3em;
+}
+
+.text_about_us > h1 {
+    margin-top: 4%;
+    font-size: 3em;
+}
+
+.text_about_us > img {
+    margin-top: 1%;
+    width: 20%;
+}
+
+.full_describe_text {
+    margin-top: 4%;
+    font-size: 1.5em;
+}
+
+.opportunities_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.opp_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+
+    padding: 4% 2.5% 6% 2.5%;
+    border-radius: 30px;
+    width: 40%;
+
+    box-shadow: 0 0 10px 4px rgba(134, 134, 134, 0.317);
+}
+
+.opp_container > h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.4em;
+    color: #7DA0FC;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.opp_needed_container {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+
+    padding: 3% 0 3% 0;
+    width: max-content;
+    border-radius: 15px;
+
+    font-family: "Inter", sans-serif;
+}
+
+.study {
+    color: #5B7AC9;
+    background-color: #7da1fc2a;
+
+    width: 100%;
+}
+
+.game {
+    color: #CDA885;
+    background-color: #fcba7d1f;
+
+    width: 100%;
+}
+
+.progress {
+    color: #977CD0;
+    background-color: #a57dfc1f;
+
+    width: 100%;
+}
+
+.opp_image {
+    width: 3vw;
+    height: 4vh;
+    margin-left: 3%;
+}

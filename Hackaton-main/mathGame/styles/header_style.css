@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1% 5%;
+}
+
+.logo_link {
+    width: 9%;
+    text-align: center;
+}
+
+.profile_link {
+    width: 3.5%;
+}
+
+.logo_image:hover,
+.profile_image:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}

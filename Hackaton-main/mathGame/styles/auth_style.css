@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    padding: 0 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #5e85e71a;
+}
+
+.container > h1 {
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+.reg_form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
+
+.form_field {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_field > label {
+    margin-bottom: 1vh;
+}
+
+.field {
+    height: 4vh;
+    width: 20vw;
+
+    border: none;
+    border-bottom: 2px solid #4768DB;
+    border-radius: 7px 7px 0 0;
+
+    background-color: #EEEEEE;
+    font-size: .9em;
+}
+
+.form_field > input::placeholder {
+    color: #363552ad;
+}
+
+.form_field > label,
+.form_field > input {
+    padding-left: 4%;
+}
+
+.checkbox_form_field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: .5vw;
+
+    margin: 4% 0;
+}
+
+.checkbox_form_field > label:hover,
+.question:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.mailing_link,
+.enter_link {
+    color: #4399D8;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.question {
+    text-align: center;
+}
+
+input#mailing_input {
+    height: 20px;
+    width: 20px;
+
+    background-color: #EEEEEE;
+    border: none;
+    outline: none;
+}
+
+#register_btn {
+    height: 4vh;
+    width: 10vw;
+
+    margin-bottom: 4%;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #4767dbe2;
+    color: white;
+
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#register_btn:hover {
+    cursor: pointer;
+    opacity: .9;
+}
+
+.have_acc {
+    margin-top: 2%;
+}
